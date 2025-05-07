@@ -1,0 +1,40 @@
+
+table {
+    border: solid black 1px;
+    background: #6dc97c;
+    margin-top: 10px;
+}
+
+td, th {
+    border: solid black 1px;
+    padding: 5px;
+}
+
+th {
+    background: #33ff21;
+}
+
+tr:nth-child(even) {
+    background: #36f846;
+}
+
+tr:nth-child(odd) {
+    background: #a5df48;
+}
+
+.error {
+    background: red;
+}
+
+svg {
+    width: 0px;
+    height: 0px;
+}
+svg text {
+    font: 8px Verdana;
+}
+svg path, line {
+    fill: none;
+    stroke: #333333;
+    width: 1px;
+}
